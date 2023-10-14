@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Css Div Image Hover</title>
+
+	<style>
+		.container {
+			width: 90%;
+			padding: 20px;
+			margin: 100px auto;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+
+		.box {
+			width: 250px;
+			height: fit-content;
+			margin: 0 10px;
+			box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+			transition: 1s;
+
+		}
+
+		.box img {
+			display: block;
+			width: 100%;
+			border-radius: 5px;
+		}
+
+		.box:hover {
+			transform: scale(1.3);
+			z-index: 2;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 style="text-align: center; color: blueviolet; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">select your template</h1>
+	<div class="container">
+		<div class="box">
+			<a href="cv-form.html"><img src="images/a.jpg"></a>
+		</div>
+		<div class="box">
+			<a href="cv-form2.html"><img src="images/b.jpg"></a>
+		</div>
+		<div class="box">
+			<a href="cv-form3.html"><img src="images/c.jpg"></a>
+		</div>
+		
+	</div>
+</body>
+
+</html>

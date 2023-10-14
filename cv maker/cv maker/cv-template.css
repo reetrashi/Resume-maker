@@ -1,0 +1,21 @@
+.bl{
+    background: rgb(19, 190, 196);
+}
+.my-img{
+ 
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 30px;
+    
+}
+.first-col{
+    
+    background: rgb(6, 182, 231);
+}
+
+.bg{
+    background-image: linear-gradient(135deg, #acb6e5 10%, #86fde8 100%);}
+.bt1{
+    background-image: linear-gradient(135deg, #d7d2cc 10%, #304352 100%);
+
+}

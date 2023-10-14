@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="cv-form2.css">
+    <title>CV-FORM</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-light nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://th.bing.com/th/id/R.4ad48f6b14c8912d7df349ed5128e0b7?rik=EuYIzH8OogkONw&riu=http%3a%2f%2fimg09.deviantart.net%2f8b47%2fi%2f2013%2f307%2f2%2f8%2fresume_logo_by_mohamad_saleh-d6sv8s1.png&ehk=Uo3kxW3Hh6egaHXL9ELoyB405YoSHC%2byc%2bvKU24y4AI%3d&risl=&pid=ImgRaw&r=0" alt="" width="150" height="35" class="d-inline-block align-text-top">
+        
+      </a>
+    </div>
+  </nav>
+
+
+    <div class="container text-center  py-2">
+       <!-- <h1><u>Form</u></h1> -->
+       
+    </div>
+   
+
+
+    <div class="container-fluid bg mt-4">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Personal Information</h3>
+
+            <div class="form-group">
+              <label for="nameField">Your Name</label>
+              <input type="text" id="nameField"  placeholder="Enter here" class="form-control">
+            </div>
+
+            
+
+            <div class="form-group mt-2">
+              <label for="contactField">Your Contact</label>
+              <input type="number" id="contactField"  placeholder="Enter here" class="form-control">
+            </div>
+
+            <div class="form-group mt-2">
+              <label for="mailField">Your Mail</label>
+              <input type="email" id="mailField"  placeholder="Enter here" class="form-control">
+            </div>
+
+
+            <div class="form-group mt-2">
+              <label for="addressField">Your Address</label>
+              <textarea type="text" id="addressField"  placeholder="Enter here" class="form-control" rows="5" ></textarea>
+            </div>
+            
+           <p class="text-secondary mt-2">Important Links</p>
+                
+           <div class="form-group mt-2">
+            <label for="fbField">Facebook</label>
+            <input type="text" id="fbField"  placeholder="Enter here" class="form-control">
+          </div>
+
+          <div class="form-group mt-2">
+            <label for="instaField">Instagram</label>
+            <input type="text" id="instaField"  placeholder="Enter here" class="form-control">
+          </div>
+
+          <div class="form-group mt-2">
+            <label for="linkedField">Linkedin</label>
+            <input type="text" id="linkedField"  placeholder="Enter here" class="form-control">
+          </div>
+          </div>
+          <div class="col-md-6">
+            <h3>Professional Information</h3>
+
+            <div class="form-group mt-2">
+              <label for="">Objective</label>
+              <textarea 
+              type="text" 
+              id="objectiveField"
+               placeholder="Enter here" 
+               class="form-control" 
+               rows="4" 
+               ></textarea>
+            </div>
+
+            <!-- Image Field -->
+
+            <div class="form-group mt-2" id="img">
+              <label for="">Select Your Photo</label>
+              <input type="file" class="form-control" id="imgField">
+              
+            </div>
+            <!-- <input id="filePic" type="file" name="image" accept="image/*" capture> -->
+
+
+            <div class="form-group mt-2 " id="we">
+              <label for="">Work Experience</label>
+              <textarea type="text" placeholder="Enter here" class="form-control weField" rows="2"  > </textarea>
+
+               <div class="container mt-2 text-center" id="weAddButton" > 
+                 <button type="button" class="btn bt" onclick="addNewWeField()" >Add</button>
+               </div>
+              
+            </div>
+
+            <div class="form-group mt-2" id="aq">
+              <label for="">Academic Qualification</label>
+              <textarea type="text"  placeholder="Enter here" class="form-control eqField" rows="2"   ></textarea>
+
+               <div class="container mt-2 text-center"id="aqAddButton"> 
+                 <button type="button" class="btn bt"  onclick="addNewAqField()" >Add</button>
+               </div>
+              
+            </div>
+              
+
+
+          </div>
+         
+        </div>
+        <div class="container-fluid text-center m-4">
+         <a href="cv-template2.html" target="_blank"><button  type="button" class="btn bt1" id="" onclick="generateResume()">Generate Resume</button></a> 
+        </div>
+      </div>
+      
+    </div>   
+
+
+
+
+
+    
+       
+
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="cv-form.js"></script>
+    
+</body>
+</html>
